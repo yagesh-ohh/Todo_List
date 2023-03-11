@@ -1,0 +1,51 @@
+/** @format */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: large;
+  font-family: "Rubik", sans-serif;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+#container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#input_container input {
+  width: 15rem;
+  height: 32px;
+  border-radius: 17px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+#input_container button {
+  padding: 5px 17px;
+  border-radius: 10px;
+}
+#para i {
+  float: right;
+}
+
+#para p {
+  margin-top: 10px;
+  width: 15rem;
+  text-align: center;
+  padding: 5px 5px;
+  border: 4px solid rgb(31, 226, 31);
+  border-radius: 5px;
+  font-size: large;
+  overflow: hidden !important;
+}
+
+.text_line {
+  text-decoration: line-through;
+  border-color: rgb(247, 22, 22) !important;
+}
