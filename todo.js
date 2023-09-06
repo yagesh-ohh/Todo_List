@@ -35,6 +35,7 @@ function startT0AddList2(inputVlaue) {
   newElement.innerText = inputVlaue;
 
   para.appendChild(newElement);
+  input.value = ""
   newElement.addEventListener("click", singelTap);
   newElement.addEventListener("dblclick", doubleTapDelete);
 }
